@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="57.636191">
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with invalid email format" time="9.740463">
+        <system-out>
+            <![CDATA[When I enter "bharathi@com" in the email field..............................passed
+And I enter "ValidPassword123" in the password field........................passed
+And I click the login button................................................passed
+Then I should see an error message "Invalid username or password"...........passed
+And To close the browser....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with unregistered email" time="8.580887">
+        <system-out>
+            <![CDATA[When User has to enter "notregistered@example.com" in the email field.......passed
+And User has to enter "ValidPassword123" in the password field..............passed
+And User has to click the login button......................................passed
+Then User should see an error message "Invalid username or password"........passed
+And User has to close the browser...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with incorrect password" time="8.008123">
+        <system-out>
+            <![CDATA[When User has to enter "9092737724" in the email address or phone number field.passed
+And User enter "bharathi@123" in the password field.........................passed
+And User click the login button.............................................passed
+Then User should see error message "Invalid username or password"...........passed
+And User close the browser..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with empty fields" time="7.928912">
+        <system-out>
+            <![CDATA[When User enter "" in to the email or phone number text field...............passed
+And User enter "" in to the password text field.............................passed
+And User click the login....................................................passed
+Then User should see an error message contains "Invalid username or password".passed
+And User to close the browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with empty fields 2" time="7.517098">
+        <system-out>
+            <![CDATA[When User enter "" in to the email or phone number text field...............passed
+And User enter "ValidPassword123" in to the password text field.............passed
+And User click the login....................................................passed
+Then User should see an error message contains "Invalid username or password".passed
+And User to close the browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with empty fields 3" time="7.876708">
+        <system-out>
+            <![CDATA[When User enter "validemail@example.com" in to the email or phone number text field.passed
+And User enter "" in to the password text field.............................passed
+And User click the login....................................................passed
+Then User should see an error message contains "Invalid username or password".passed
+And User to close the browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify facebook login with negative test cases" name="To validate login with unregistered mobile number" time="7.984">
+        <system-out>
+            <![CDATA[When User enter invalid "8925775089" in the email or mobile number field....passed
+And User enter valid "ValidPassword123" in the password field...............passed
+And User to click the login button..........................................passed
+Then User should see an error message like "Invalid username or password"...passed
+And Close the browser.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

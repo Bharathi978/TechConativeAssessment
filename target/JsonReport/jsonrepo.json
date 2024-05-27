@@ -1,0 +1,748 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-27T06:44:08.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7038090700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate login with invalid email format",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-invalid-email-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 273880700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter \"bharathi@com\" in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathi@com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Scenario1.i_enter_in_the_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317925000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"ValidPassword123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ValidPassword123\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Scenario1.i_enter_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213723600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the login button",
+            "match": {
+              "location": "Scenario1.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1506941100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see an error message \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Scenario1.i_should_see_an_error_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 382403500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To close the browser",
+            "match": {
+              "location": "Scenario1.to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-27T06:44:18.665Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5516355600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To validate login with unregistered email",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-unregistered-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 292626300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User has to enter \"notregistered@example.com\" in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"notregistered@example.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Scenario2.user_has_to_enter_in_the_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368682000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter \"ValidPassword123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ValidPassword123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Scenario2.user_has_to_enter_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213349400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click the login button",
+            "match": {
+              "location": "Scenario2.user_has_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1737254300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should see an error message \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Scenario2.user_should_see_an_error_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451441200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to close the browser",
+            "match": {
+              "location": "Scenario2.user_has_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-27T06:44:27.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5227592000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To validate login with incorrect password",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-incorrect-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194111600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User has to enter \"9092737724\" in the email address or phone number field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9092737724\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Scenario3.user_has_to_enter_in_the_email_address_or_phone_number_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260540600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter \"bharathi@123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bharathi@123\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario3.user_enter_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206133300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click the login button",
+            "match": {
+              "location": "Scenario3.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1789631600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should see error message \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Scenario3.user_should_see_error_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329571200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User close the browser",
+            "match": {
+              "location": "Scenario3.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-27T06:44:35.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5499923800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "To validate login with empty fields",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-empty-fields;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92294300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter \"\" in to the email or phone number text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario4.user_enter_in_to_the_email_or_phone_number_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128553700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter \"\" in to the password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario4.user_enter_in_to_the_password_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155094400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click the login",
+            "match": {
+              "location": "Scenario4.user_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1613798900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should see an error message contains \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Scenario4.user_should_see_an_error_message_contains(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 438274400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User to close the browser",
+            "match": {
+              "location": "Scenario4.user_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-27T06:44:43.185Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5287075700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "To validate login with empty fields",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-empty-fields;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88373500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter \"\" in to the email or phone number text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario4.user_enter_in_to_the_email_or_phone_number_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282282400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter \"ValidPassword123\" in to the password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ValidPassword123\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario4.user_enter_in_to_the_password_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190915000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click the login",
+            "match": {
+              "location": "Scenario4.user_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1223106500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should see an error message contains \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Scenario4.user_should_see_an_error_message_contains(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 443886200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User to close the browser",
+            "match": {
+              "location": "Scenario4.user_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-27T06:44:50.704Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5475503200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "To validate login with empty fields",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-empty-fields;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 252769600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter \"validemail@example.com\" in to the email or phone number text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"validemail@example.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario4.user_enter_in_to_the_email_or_phone_number_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170350900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter \"\" in to the password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Scenario4.user_enter_in_to_the_password_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231106900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click the login",
+            "match": {
+              "location": "Scenario4.user_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366050400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should see an error message contains \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Scenario4.user_should_see_an_error_message_contains(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 380284400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User to close the browser",
+            "match": {
+              "location": "Scenario4.user_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-27T06:44:58.582Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5487679000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "To validate login with unregistered mobile number",
+        "description": "",
+        "id": "to-verify-facebook-login-with-negative-test-cases;to-validate-login-with-unregistered-mobile-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178110100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User enter invalid \"8925775089\" in the email or mobile number field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8925775089\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Scenario5.user_enter_invalid_in_the_email_or_mobile_number_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288813500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User enter valid \"ValidPassword123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ValidPassword123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Scenario5.user_enter_valid_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218240400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User to click the login button",
+            "match": {
+              "location": "Scenario5.user_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1467679300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should see an error message like \"Invalid username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username or password\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Scenario5.user_should_see_an_error_message_like(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 342888900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Close the browser",
+            "match": {
+              "location": "Scenario5.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario5"
+          }
+        ]
+      }
+    ],
+    "name": "To verify facebook login with negative test cases",
+    "description": "",
+    "id": "to-verify-facebook-login-with-negative-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FacebookNegative.feature",
+    "tags": []
+  }
+]
